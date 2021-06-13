@@ -1,0 +1,36 @@
+.Button {
+  width: 220px;
+  height: 40px;
+
+  background: #0088ff;
+  border-radius: 6px;
+
+  margin: 10px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  cursor: pointer;
+
+  user-select: none;
+
+  color: #f8f9fd;
+  text-decoration: none !important;
+
+  box-shadow: 0 4px 20px rgba(0, 136, 255, 0.15);
+  transition: 0.3s 0s;
+
+  &:hover {
+    background: #2197ff;
+    color: #f8f9fd;
+  }
+
+  &:active {
+    background: #0075ff;
+  }
+}

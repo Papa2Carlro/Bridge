@@ -71,7 +71,9 @@ module.exports = function() {
               loader: 'css-loader',
               options: {
                 importLoaders: 1,
-                modules: true,
+                modules: {
+                  localIdentName: '[local]',
+                },
                 sourceMap: true
               }
             },
